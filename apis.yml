@@ -1,8 +1,26 @@
 aid: brightside
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/brightside.png
 name: Brightside
-description: Brightside is a company surfaced as a portfolio company of a16z, obvious-ventures, trinity-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: 'Brightside (Brightside Benefit, Inc.) is an employer-sponsored financial
+  care benefit that helps working families reduce everyday money stress. Delivered
+  as an employee benefit through employers, Brightside pairs each employee with a
+  human Financial Assistant and a mobile/web app offering emergency cash and loans,
+  debt management and credit-score improvement, savings and early wage access, bill
+  negotiation, crisis support (eviction, utilities, food), and guidance through major
+  life events. The company is backed by a16z, Obvious Ventures, and Trinity Ventures.
+  Brightside is a consumer-facing benefits platform and does not currently publish
+  a public developer API or documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/brightside/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,9 +32,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Financial Wellness
+- Employee Benefits
+- Financial Services
+- Personal Finance
+- Fintech
+- Financial Care
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +48,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/brightside-domain-security.yml
 - type: Website
   url: https://gobrightside.com
+- type: Blog
+  url: https://gobrightside.com/blog
+- type: About
+  url: https://gobrightside.com/about
+- type: Careers
+  url: https://gobrightside.com/careers
+- type: Support
+  url: https://gobrightside.com/contact-us
+- type: SignUp
+  url: https://gobrightside.com/register
+- type: TermsOfService
+  url: https://gobrightside.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://gobrightside.com/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
